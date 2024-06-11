@@ -8,11 +8,14 @@ h1 {
 }
 
 .recipe-list {
-    display: inline-flex;
     list-style-type: none;
+    width: 300px;
+    margin: auto;
+
 }
 
 .recipe-list li a {
+    display: block;   
     text-decoration: none;
     border: 2px solid black;
     padding: 10px;
